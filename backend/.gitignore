@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.*
+
+# Node.js
+node_modules/
+
+# OS-specific
+.DS_Store
+Thumbs.db

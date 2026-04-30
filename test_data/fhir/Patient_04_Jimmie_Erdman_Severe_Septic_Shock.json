@@ -1,0 +1,5400 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p04-jimmie-erdman",
+        "name": [
+          {
+            "use": "official",
+            "family": "Erdman",
+            "given": [
+              "Jimmie",
+              "Leo"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1952-08-19"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hr-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 122,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-rr-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 26,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-temp-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.0,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-sbp-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 86,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-dbp-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 52,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-mbp-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 63,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-spo2-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 91,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-pao2-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 72,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-paco2-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 31,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ph-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.32,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-trop-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.09,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-creat-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 2.1,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bun-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 35,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-uout-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.4,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alt-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 85,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ast-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bili-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 2.0,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alp-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 140,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alb-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.0,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-wbc-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 21.0,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hgb-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.4,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-plt-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 130,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-lact-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 4.5,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-k-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.2,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-na-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 134,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-glu-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 195,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bicarb-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 16,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-gcs-1",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 13,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hr-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 126,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-rr-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 28,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-temp-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.2,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-sbp-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 84,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-dbp-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 50,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-mbp-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 61,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-spo2-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-pao2-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 70,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-paco2-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 30,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ph-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.3,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-trop-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.11,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-creat-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 2.3,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bun-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 39,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-uout-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.3,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alt-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ast-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 88,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bili-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 2.3,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alp-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 155,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alb-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.9,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-wbc-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 22.5,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hgb-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.0,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-plt-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 120,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-lact-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 5.1,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-k-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.4,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-na-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 133,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-glu-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 210,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bicarb-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-gcs-2",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 13,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hr-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 132,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-rr-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 30,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-temp-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.4,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-sbp-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 80,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-dbp-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 48,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-mbp-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 59,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-spo2-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 88,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-pao2-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 66,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-paco2-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 28,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ph-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.28,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-trop-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.13,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-creat-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 2.6,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bun-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 44,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-uout-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.3,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alt-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 110,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ast-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bili-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 2.6,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alp-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 175,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alb-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.7,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-wbc-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 24.8,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hgb-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 10.6,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-plt-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 108,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-lact-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 5.8,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-k-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.6,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-na-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 132,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-glu-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 230,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bicarb-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-gcs-3",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 12,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hr-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 136,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-rr-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 32,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-temp-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.6,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-sbp-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-dbp-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 45,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-mbp-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 56,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-spo2-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 87,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-pao2-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 62,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-paco2-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 27,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ph-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.25,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-trop-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.16,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-creat-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 2.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bun-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 49,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-uout-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.2,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alt-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 125,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ast-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 110,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bili-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 3.0,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alp-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 195,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alb-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.5,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-wbc-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 26.5,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hgb-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 10.2,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-plt-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-lact-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 6.7,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-k-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.8,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-na-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 131,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-glu-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 250,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bicarb-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 13,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-gcs-4",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 11,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hr-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 130,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-rr-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 29,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-temp-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.3,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-sbp-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 82,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-dbp-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 49,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-mbp-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 60,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-spo2-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 89,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-pao2-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 68,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-paco2-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 29,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ph-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.29,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-trop-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.15,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-creat-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 2.8,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bun-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 47,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-uout-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.3,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alt-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 120,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ast-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 105,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bili-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 2.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alp-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 185,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alb-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.6,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-wbc-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 25.0,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hgb-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 10.5,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-plt-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 102,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-lact-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 6.2,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-k-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.6,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-na-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 132,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-glu-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 240,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bicarb-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-gcs-5",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 12,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hr-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 134,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-rr-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 31,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-temp-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.5,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-sbp-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 76,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-dbp-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 44,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-mbp-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 55,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-spo2-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 86,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-pao2-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 64,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-paco2-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 27,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ph-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.26,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-trop-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.18,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-creat-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 3.2,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bun-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 53,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-uout-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.2,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alt-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 135,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ast-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 120,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bili-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 3.3,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alp-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 210,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alb-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.4,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-wbc-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 28.0,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hgb-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 10.0,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-plt-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 88,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-lact-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 7.3,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-k-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 6.0,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-na-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 130,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-glu-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 265,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bicarb-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 12,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-gcs-6",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 11,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hr-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 138,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-rr-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 33,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-temp-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.7,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-sbp-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 74,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-dbp-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 42,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-mbp-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 53,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-spo2-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 85,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-pao2-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 60,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-paco2-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 26,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ph-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.23,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-trop-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.2,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-creat-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 3.4,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bun-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 58,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-uout-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.1,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alt-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 145,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ast-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 130,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bili-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 3.6,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alp-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 230,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alb-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.3,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-wbc-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 29.5,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hgb-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.6,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-plt-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-lact-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 8.0,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-k-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 6.2,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-na-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 129,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-glu-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 280,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bicarb-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 11,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-gcs-7",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 10,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hr-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 142,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-rr-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 34,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-temp-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.8,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-sbp-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 70,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-dbp-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 38,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-mbp-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 49,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-spo2-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 83,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-pao2-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 58,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-paco2-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 25,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ph-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.2,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-trop-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.22,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-creat-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 3.7,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bun-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 64,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-uout-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.1,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alt-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 160,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-ast-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 140,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bili-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 4.0,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alp-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 255,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-alb-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.1,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-wbc-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 31.0,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-hgb-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.2,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-plt-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 68,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-lact-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 9.2,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-k-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 6.5,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-na-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 128,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-glu-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 305,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-bicarb-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 10,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p04-jimmie-erdman-gcs-8",
+        "subject": {
+          "reference": "Patient/p04-jimmie-erdman"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 9,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    }
+  ]
+}

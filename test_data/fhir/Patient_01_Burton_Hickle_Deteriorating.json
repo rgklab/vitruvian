@@ -1,0 +1,5400 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p01-burton-hickle",
+        "name": [
+          {
+            "use": "official",
+            "family": "Hickle",
+            "given": [
+              "Burton",
+              "James"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1978-05-14"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hr-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 72,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-rr-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-temp-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 36.8,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-sbp-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 122,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-dbp-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-mbp-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-spo2-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-pao2-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-paco2-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 39,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ph-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.41,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-trop-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.01,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-creat-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bun-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-uout-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 1.2,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alt-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 30,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ast-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 25,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bili-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 0.7,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alp-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 70,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alb-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 4.2,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-wbc-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 6.5,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hgb-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.8,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-plt-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 240,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-lact-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-k-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-na-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 140,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-glu-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bicarb-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 24,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-gcs-1",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hr-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-rr-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 17,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-temp-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 37.1,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-sbp-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 118,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-dbp-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 75,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-mbp-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 89,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-spo2-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 97,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-pao2-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-paco2-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 38,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ph-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.4,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-trop-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.01,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-creat-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bun-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-uout-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alt-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 32,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ast-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 28,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bili-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 0.8,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alp-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 74,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alb-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-wbc-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 7.2,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hgb-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.6,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-plt-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 235,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-lact-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 1.2,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-k-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.2,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-na-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 139,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-glu-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 105,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bicarb-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 24,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-gcs-2",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hr-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 92,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-rr-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 20,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-temp-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 37.8,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-sbp-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 110,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-dbp-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 70,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-mbp-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 83,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-spo2-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 96,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-pao2-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 88,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-paco2-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 36,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ph-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.39,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-trop-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.02,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-creat-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bun-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 17,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-uout-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alt-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 38,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ast-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 32,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bili-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alp-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 82,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alb-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.9,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-wbc-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 9.4,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hgb-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.2,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-plt-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 220,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-lact-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 1.6,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-k-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.3,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-na-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 138,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-glu-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 118,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bicarb-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 23,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-gcs-3",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hr-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 105,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-rr-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 23,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-temp-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 38.4,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-sbp-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-dbp-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 62,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-mbp-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 74,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-spo2-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 94,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-pao2-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 82,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-paco2-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 34,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ph-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.37,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-trop-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.03,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-creat-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.2,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bun-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 21,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-uout-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.7,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alt-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 45,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ast-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 40,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bili-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alp-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alb-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.7,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-wbc-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 12.8,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hgb-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 13.7,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-plt-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 195,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-lact-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 2.2,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-k-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.5,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-na-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 137,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-glu-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 135,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bicarb-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 21,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-gcs-4",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hr-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 118,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-rr-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 26,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-temp-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 38.9,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-sbp-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-dbp-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 55,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-mbp-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 66,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-spo2-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 92,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-pao2-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 76,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-paco2-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 32,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ph-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.34,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-trop-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.05,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-creat-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.5,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bun-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 26,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-uout-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.5,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alt-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 58,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ast-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 52,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bili-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 1.4,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alp-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 110,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alb-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.4,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-wbc-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 16.2,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hgb-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 13.0,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-plt-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 170,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-lact-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 3.1,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-k-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.8,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-na-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 136,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-glu-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 152,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bicarb-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 19,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-gcs-5",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hr-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 128,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-rr-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 28,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-temp-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.2,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-sbp-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 82,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-dbp-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 50,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-mbp-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 60,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-spo2-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 89,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-pao2-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 70,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-paco2-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 30,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ph-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.31,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-trop-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.08,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-creat-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bun-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 32,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-uout-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.4,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alt-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 74,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ast-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 68,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bili-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 1.8,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alp-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 130,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alb-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.2,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-wbc-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 19.5,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hgb-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 12.4,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-plt-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 145,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-lact-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 4.0,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-k-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.1,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-na-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 135,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-glu-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 170,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bicarb-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 17,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-gcs-6",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 13,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hr-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 135,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-rr-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 30,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-temp-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.5,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-sbp-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 76,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-dbp-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 46,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-mbp-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 56,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-spo2-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 86,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-pao2-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 65,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-paco2-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 28,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ph-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.28,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-trop-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.12,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-creat-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 2.3,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bun-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 38,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-uout-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.3,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alt-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 92,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ast-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 85,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bili-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 2.2,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alp-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 155,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alb-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.9,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-wbc-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 22.0,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hgb-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.8,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-plt-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 125,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-lact-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 5.2,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-k-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.4,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-na-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 133,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-glu-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 190,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bicarb-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-gcs-7",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 12,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hr-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 140,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-rr-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 32,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-temp-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.6,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-sbp-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 72,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-dbp-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 42,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-mbp-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 52,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-spo2-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 84,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-pao2-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 60,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-paco2-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 27,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ph-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.25,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-trop-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.15,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-creat-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 2.6,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bun-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 44,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-uout-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.2,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alt-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 110,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-ast-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bili-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 2.5,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alp-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 175,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-alb-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 2.7,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-wbc-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 24.5,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-hgb-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.2,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-plt-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 110,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-lact-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 6.1,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-k-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.7,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-na-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 132,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-glu-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 210,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-bicarb-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p01-burton-hickle-gcs-8",
+        "subject": {
+          "reference": "Patient/p01-burton-hickle"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 11,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    }
+  ]
+}

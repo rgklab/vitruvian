@@ -1,0 +1,343 @@
+/* Vitruvian Clinical Light EHR Design System */
+:root {
+  --color-bg-model: #f1f5f9;
+  --color-border: #e2e8f0;
+  --color-border-active: #3b82f6;
+  --color-primary-blue: #1e3a8a;
+  --color-primary-hover: #172554;
+  --color-active-blue: #2563eb;
+  --color-text-main: #0f172a;
+  --color-text-muted: #475569;
+  --color-card-bg: #ffffff;
+}
+
+/* Base Layout */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8fafc;
+  overflow: hidden;
+}
+
+.left-panel {
+  box-sizing: border-box;
+  width: 28%;
+  padding: 1.25rem;
+  background-color: var(--color-bg-model);
+  border-right: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.mid-panel {
+  box-sizing: border-box;
+  width: 36%;
+  padding: 1.25rem;
+  background-color: #ffffff;
+  border-right: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: width 0.3s ease;
+} 
+
+.right-panel {
+  box-sizing: border-box;
+  width: 36%;
+  padding: 1.25rem;
+  background-color: var(--color-bg-model);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-left: 1px solid var(--color-border);
+  height: 100%;
+}
+
+/* Two-Column Mode (When no ML model is connected) */
+.app-container.two-column .left-panel {
+  width: 42%;
+}
+
+.app-container.two-column .mid-panel {
+  width: 58%;
+  border-right: none;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 2px solid var(--color-border);
+  margin-bottom: 1.2rem;
+}
+
+.tab-button {
+  padding: 10px 16px;
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tab-button:hover {
+  color: var(--color-text-main);
+  border-bottom: 2px solid rgba(37, 99, 235, 0.4);
+}
+
+.tab-button.active {
+  color: var(--color-active-blue);
+  border-bottom: 2px solid var(--color-active-blue);
+  font-weight: 600;
+}
+
+.tab-content {
+  background-color: transparent;
+  color: var(--color-text-main);
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Patient Selection Dropdown */
+.patient-select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-main);
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.patient-select:focus {
+  border-color: var(--color-active-blue);
+}
+
+/* Download Button Styling */
+.download-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: auto;
+  border-radius: 6px;
+  background-color: var(--color-primary-blue);
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(30, 58, 138, 0.1);
+}
+
+.download-btn:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(30, 58, 138, 0.2);
+}
+
+/* Chatbot Interface Styling */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  color: var(--color-text-main);
+  box-sizing: border-box;
+}
+
+/* Collapsible Widget Card Styling */
+.collapsible-card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.collapsible-card.collapsed {
+  height: 44px;
+  flex: none !important;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  cursor: pointer;
+  background-color: #ffffff;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.collapsible-header:hover {
+  background-color: #f8fafc;
+}
+
+.collapsible-header.active-border {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.collapsible-header h3 {
+  color: var(--color-text-main);
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.collapsible-chevron {
+  font-size: 10px;
+  color: #64748b;
+  transition: transform 0.3s ease;
+}
+
+.collapsible-chevron.rotated {
+  transform: rotate(-180deg);
+}
+
+.collapsible-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  opacity: 1;
+  transition: opacity 0.2s ease, padding 0.3s ease;
+  box-sizing: border-box;
+}
+
+.collapsible-card.collapsed .collapsible-content {
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.chat-history {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-right: 4px;
+}
+
+.chat-message {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  line-height: 1.5;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+
+.chat-message.user {
+  align-self: flex-end;
+  background-color: var(--color-active-blue);
+  color: #ffffff;
+  border-bottom-right-radius: 2px;
+  font-weight: 500;
+}
+
+.chat-message.bot {
+  align-self: flex-start;
+  background-color: #f1f5f9;
+  color: var(--color-text-main);
+  border-bottom-left-radius: 2px;
+  border: 1px solid var(--color-border);
+}
+
+.chat-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  padding: 10px 12px;
+  background-color: #ffffff;
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.chat-input input:focus {
+  border-color: var(--color-active-blue);
+}
+
+.chat-input button {
+  padding: 10px 16px;
+  background-color: var(--color-primary-blue);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.chat-input button:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-1px);
+}
+
+/* 3D Model Reset and Switch styles */
+.left-panel button {
+  background: #ffffff;
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.left-panel button:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+  color: var(--color-primary-blue);
+}
+
+/* Micro-animations */
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}

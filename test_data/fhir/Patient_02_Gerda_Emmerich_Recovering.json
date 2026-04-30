@@ -1,0 +1,5400 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p02-gerda-emmerich",
+        "name": [
+          {
+            "use": "official",
+            "family": "Emmerich",
+            "given": [
+              "Gerda",
+              "Marie"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1965-11-20"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hr-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 130,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-rr-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 28,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-temp-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 39.1,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-sbp-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 82,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-dbp-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 48,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-mbp-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 59,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-spo2-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 89,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-pao2-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 68,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-paco2-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 29,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ph-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.3,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-trop-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.08,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-creat-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bun-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 33,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-uout-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.3,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alt-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 75,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ast-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 70,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bili-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 1.8,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alp-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 135,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alb-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.1,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-wbc-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 19.8,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hgb-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.5,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-plt-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 138,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-lact-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 4.2,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-k-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 5.2,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-na-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 134,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-glu-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 185,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bicarb-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 16,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-gcs-1",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 13,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T01:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hr-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 122,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-rr-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 26,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-temp-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 38.8,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-sbp-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 88,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-dbp-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 54,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-mbp-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 65,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-spo2-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 91,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-pao2-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 74,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-paco2-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 31,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ph-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.33,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-trop-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.07,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-creat-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.7,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bun-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 30,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-uout-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.5,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alt-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 68,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ast-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 62,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bili-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 1.6,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alp-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 125,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alb-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.3,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-wbc-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 17.5,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hgb-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.8,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-plt-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 150,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-lact-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 3.4,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-k-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.9,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-na-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 136,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-glu-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 165,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bicarb-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 18,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-gcs-2",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T02:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hr-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 110,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-rr-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 23,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-temp-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 38.2,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-sbp-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 96,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-dbp-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 60,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-mbp-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 72,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-spo2-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 93,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-pao2-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 80,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-paco2-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 33,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ph-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.35,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-trop-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.05,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-creat-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.4,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bun-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 26,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-uout-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.7,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alt-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 55,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ast-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 50,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bili-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 1.3,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alp-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 110,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alb-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.5,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-wbc-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 14.2,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hgb-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 12.2,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-plt-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 175,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-lact-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 2.6,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-k-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.6,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-na-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 137,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-glu-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 145,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bicarb-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 20,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-gcs-3",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T03:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hr-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-rr-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 20,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-temp-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 37.7,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-sbp-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 104,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-dbp-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 66,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-mbp-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-spo2-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-pao2-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 85,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-paco2-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 35,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ph-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.37,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-trop-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.03,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-creat-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.2,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bun-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 22,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-uout-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alt-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 44,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ast-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 38,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bili-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alp-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 96,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alb-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.7,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-wbc-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 11.5,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hgb-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 12.6,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-plt-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 195,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-lact-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 1.9,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-k-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.4,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-na-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 138,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-glu-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 130,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bicarb-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 22,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-gcs-4",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T04:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hr-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 88,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-rr-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 18,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-temp-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 37.3,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-sbp-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 112,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-dbp-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 72,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-mbp-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 85,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-spo2-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 97,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-pao2-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-paco2-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 37,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ph-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.39,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-trop-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.02,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-creat-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bun-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 18,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-uout-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alt-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 36,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ast-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 32,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bili-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alp-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 86,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alb-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 3.9,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-wbc-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 9.2,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hgb-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 13.0,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-plt-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 215,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-lact-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 1.4,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-k-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.2,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-na-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 139,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-glu-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 115,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bicarb-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 23,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-gcs-5",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hr-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 80,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-rr-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 16,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-temp-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 36.9,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-sbp-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 118,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-dbp-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 76,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-mbp-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-spo2-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-pao2-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 94,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-paco2-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 38,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ph-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.4,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-trop-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.01,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-creat-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bun-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 16,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-uout-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 1.2,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alt-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 30,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ast-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 28,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bili-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 0.8,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alp-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alb-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-wbc-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 7.8,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hgb-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 13.4,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-plt-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 230,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-lact-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-k-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-na-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 140,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-glu-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 105,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bicarb-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 24,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-gcs-6",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T06:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hr-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 76,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-rr-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-temp-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 36.8,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-sbp-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 120,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-dbp-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-mbp-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-spo2-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-pao2-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 96,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-paco2-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 39,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ph-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.41,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-trop-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.01,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-creat-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bun-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-uout-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 1.3,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alt-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 28,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ast-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 26,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bili-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 0.7,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alp-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 72,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alb-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 4.2,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-wbc-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 7.0,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hgb-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 13.7,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-plt-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 240,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-lact-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 0.9,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-k-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.0,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-na-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 141,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-glu-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bicarb-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 24,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-gcs-7",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T07:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hr-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "valueQuantity": {
+          "value": 74,
+          "unit": "bpm"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-rr-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "breaths/min"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-temp-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "valueQuantity": {
+          "value": 36.7,
+          "unit": "\u00b0C"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-sbp-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 122,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-dbp-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 80,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-mbp-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8478-0",
+              "display": "Mean blood pressure"
+            }
+          ],
+          "text": "Mean blood pressure"
+        },
+        "valueQuantity": {
+          "value": 94,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-spo2-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Blood"
+            }
+          ],
+          "text": "Oxygen saturation in Blood"
+        },
+        "valueQuantity": {
+          "value": 99,
+          "unit": "%"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-pao2-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "PaO2"
+            }
+          ],
+          "text": "PaO2"
+        },
+        "valueQuantity": {
+          "value": 98,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-paco2-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "PaCO2"
+            }
+          ],
+          "text": "PaCO2"
+        },
+        "valueQuantity": {
+          "value": 40,
+          "unit": "mmHg"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ph-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "Blood pH"
+            }
+          ],
+          "text": "Blood pH"
+        },
+        "valueQuantity": {
+          "value": 7.42,
+          "unit": "pH"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-trop-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin"
+            }
+          ],
+          "text": "Troponin"
+        },
+        "valueQuantity": {
+          "value": 0.01,
+          "unit": "ng/mL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-creat-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "valueQuantity": {
+          "value": 0.8,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bun-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Blood Urea Nitrogen"
+            }
+          ],
+          "text": "Blood Urea Nitrogen"
+        },
+        "valueQuantity": {
+          "value": 14,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-uout-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9187-6",
+              "display": "Urine output"
+            }
+          ],
+          "text": "Urine output"
+        },
+        "valueQuantity": {
+          "value": 1.4,
+          "unit": "mL/kg/h"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alt-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "ALT"
+            }
+          ],
+          "text": "ALT"
+        },
+        "valueQuantity": {
+          "value": 26,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-ast-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "AST"
+            }
+          ],
+          "text": "AST"
+        },
+        "valueQuantity": {
+          "value": 24,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bili-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin"
+            }
+          ],
+          "text": "Bilirubin"
+        },
+        "valueQuantity": {
+          "value": 0.7,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alp-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline Phosphatase"
+            }
+          ],
+          "text": "Alkaline Phosphatase"
+        },
+        "valueQuantity": {
+          "value": 68,
+          "unit": "U/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-alb-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin"
+            }
+          ],
+          "text": "Albumin"
+        },
+        "valueQuantity": {
+          "value": 4.3,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-wbc-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "WBC"
+            }
+          ],
+          "text": "WBC"
+        },
+        "valueQuantity": {
+          "value": 6.6,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-hgb-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.0,
+          "unit": "g/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-plt-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "valueQuantity": {
+          "value": 250,
+          "unit": "10*3/uL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-lact-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2524-7",
+              "display": "Lactate"
+            }
+          ],
+          "text": "Lactate"
+        },
+        "valueQuantity": {
+          "value": 0.8,
+          "unit": "mmol/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-k-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "valueQuantity": {
+          "value": 4.0,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-na-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "valueQuantity": {
+          "value": 141,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-glu-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "mg/dL"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-bicarb-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1963-8",
+              "display": "Bicarbonate"
+            }
+          ],
+          "text": "Bicarbonate"
+        },
+        "valueQuantity": {
+          "value": 25,
+          "unit": "mEq/L"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-p02-gerda-emmerich-gcs-8",
+        "subject": {
+          "reference": "Patient/p02-gerda-emmerich"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9269-2",
+              "display": "Glasgow Coma Scale"
+            }
+          ],
+          "text": "Glasgow Coma Scale"
+        },
+        "valueQuantity": {
+          "value": 15,
+          "unit": "score"
+        },
+        "effectiveDateTime": "2026-08-31T08:00:00Z"
+      }
+    }
+  ]
+}
