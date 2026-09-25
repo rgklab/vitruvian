@@ -1,4 +1,4 @@
-# Virtruvian
+# Vitruvian
 Vitruvian is a clinician-centered platform for visualizing patient anatomy from EHR data, integrating external ML predictions, and collecting expert validation feedback for continuous model improvement.
 
 ## Motivation
@@ -55,14 +55,15 @@ The platform does not replace clinical judgment, diagnosis, or treatment plannin
 ## Installation
 Clone the repository, then
    ```bash
-   cd virtruvian
+   cd vitruvian
    ```
-For the backend:
+### Install the backend
 1. Create and activate a virtual environment (recommended):
    ```bash
    cd backend
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   # macOS: source venv/bin/activate
+   # Windows: venv\Scripts\activate
    ```
 
 2. Install dependencies:
@@ -74,8 +75,8 @@ For the backend:
    * Set up your key in the environment
    * Keep your API key private and secure!
 
-For the frontend:
-1. Install dependencies:
+### Install the frontend
+Install frontend dependencies:
    ```bash
    cd frontend
    npm install
@@ -85,7 +86,6 @@ For the frontend:
 ### To run the backend
 ```bash
 cd backend
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 python app.py
 python server.py
 ```
@@ -94,3 +94,16 @@ python server.py
 cd frontend
 npm run start
 ```
+
+## Guide to the Graphical User Interface
+Provided below is the graphical user interface (GUI) of Vitruvian, with key components labelled.
+
+![alt text](GUI.png)
+
+1. The anatomical visualization of ingested patient data with organ-system color-coding
+1. Time-series metric charts
+1. All extracted EHR data available for visualization, with common metric groupings for added convenience
+1. LLM chatbot with context of the current patient
+1. Example ML Model connected to Vitruvian, where inputs are automatically processed, and outputs are presented side-by-side
+1. Validation panel for Human-in-the-loop audit
+1. Option to export the validation for future model developments
